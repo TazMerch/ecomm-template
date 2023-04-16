@@ -1,0 +1,57 @@
+.nav-container {
+    height: 60px;
+    padding: 0px 15px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-hamburger, .nav-searchbox, .nav-buttons-right {
+    display: flex;
+    align-items: center;
+    color: var(--color1);
+    height: 40px;
+}
+
+.nav-buttons-right {
+    gap: 5px;
+}
+
+.nav-acct-btn, .nav-cart-btn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-hamburger:hover, .nav-acct-btn:hover, .nav-cart-btn:hover {
+    border-radius: 5px;
+    background: var(--accentColor);
+    
+}
+
+i {
+    color: var(--color1);
+    padding: 0 10px;
+}
+
+i.fa-magnifying-glass {
+    font-size: 15px;
+}
+
+.nav-searchbox {
+    border-radius: 5px;
+    background: var(--accentColor);
+}
+
+.nav-searchbar {
+    width: 30vw;
+    font-size: 15px;
+    padding: 0 15px;
+    border: none;
+    background: none;
+}
+
+.nav-searchbar:focus {
+    outline: none;
+}
